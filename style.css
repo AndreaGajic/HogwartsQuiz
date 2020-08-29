@@ -1,0 +1,139 @@
+/* CSS files add styling rules to your content */
+
+body {
+  height: 50%;
+  font-family: "Lora", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+
+buttton {
+  border-radius: 10px;
+  height: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#gryffindor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#slytherin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#ravenclaw {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#hufflepuff {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+#sorting-hat {
+  border-radius: 40%;
+  border: 3px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slytherin_text {
+  width: 300px;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+.ravenclaw_text {
+  width: 300px;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+.hufflepuff_text {
+  width: 300px;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+.gryffindor_text {
+  width: 300px;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+.slyther {
+  width: 1500px;
+  border: 1px solid #white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.huffle {
+  width: 1500px;
+  border: 1px solid #white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gryff {
+  width: 1500px;
+  border: 1px solid #white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.raven {
+  width: 1500px;
+  border: 1px solid #white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.answer-choice img {
+  width: auto;
+  height: 8em;
+  margin: 1em;
+  border-radius: 20px;
+}
+
+.welcome {
+  background-image: url("https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fhogwarts.jpg?v=1596778703164");
+  background-repeat: no-repeat;
+  background-size: 2000px 500px;
+}

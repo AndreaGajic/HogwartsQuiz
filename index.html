@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lora&family=Pacifico&display=swap");
+    </style>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="welcome">
+      <br />
+      <h1>Welcome to Hogwarts!</h1>
+      <br />
+      <img
+        id="sorting-hat"
+        src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2FHarry_Potter_Collection_ST10-HP08_1024x1024.png?v=1596777794410"
+        style="width:200px;height:170px;"
+      />
+      <h3>
+        Answer the Sorting Hat's Questions and find out which house you belong
+        to!
+      </h3>
+      <br />
+    </div>
+    <br />
+
+    <div class="quiz">
+      <h2>Which room do you prefer?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fslytherin.jpg?v=1596776119390"
+          />
+          <br />
+          <button id="q1a1">A Modern Room</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fgryffindor.png?v=1596776119496"
+          />
+          <br />
+          <button id="q1a2">A Colorful Room</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fhufflepuff.jpg?v=1596776119666"
+          />
+          <br />
+          <button id="q1a3">A Cozy Room</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fravencalw.jpg?v=1596776123471"
+          />
+          <br />
+          <button id="q1a4">A Room with Bookshelves</button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+
+      <h2>Which of the following do you prefer to eat?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fravenclaw.jpg?v=1596776593557"
+          />
+          <br />
+          <button id="q2a1">Salad</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fgryffindor.jpg?v=1596776592925"
+          />
+          <br />
+          <button id="q2a2">Pizza</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fslytherin.jpg?v=1596776629482"
+          />
+          <br />
+          <button id="q2a3">Pasta</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fhufflepuff.jpg?v=1596776649981"
+          />
+          <br />
+          <button id="q2a4">Grilled Cheese</button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <h2>What is your favorite TV show?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fslytherin.jpg?v=1596777042400"
+          />
+          <br />
+          <button id="q3a1">Sherlock</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fimages%20(2).jpg?v=1596776995651"
+          />
+          <br />
+          <button id="q3a2">The Great British Bake Off</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fgryffindor.jpg?v=1596777094592"
+          />
+          <br />
+          <button id="q3a3">Supernatural</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fravenclaw.jpg?v=1596777035144"
+          />
+          <br />
+          <button id="q3a4">Reign</button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <h2>Which of the following is your favorite to play or watch?</h2>
+      <div class="question">
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fravenclaw.jpg?v=1596777370434"
+          />
+          <br />
+          <button id="q4a1">Chess</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fslytherin.jpg?v=1596777354746"
+          />
+          <br />
+          <button id="q4a2">Tennis</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fhufflepuff.jpg?v=1596777361464"
+          />
+          <br />
+          <button id="q4a3">Soccer</button>
+        </div>
+        <div class="answer-choice">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fgryffindor.jpg?v=1596777345407"
+          />
+          <br />
+          <button id="q4a4">Hockey</button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+        <button id="restart">Restart</button>
+
+      <div class="result">
+        <h2 id="result">Your Hogwarts house is...</h2>
+      </div>
+      <div id="slytherin">
+        <div class="slyther">
+          <img
+               id="slytherinn"
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fslytherin.jpg?v=1596779672708"
+          />
+          <div class="slytherin_text">
+            <p>
+              Slytherins tend to be ambitious, shrewd, cunning, strong leaders,
+              and achievement-oriented. They also have highly developed senses
+              of self-preservation. This means that Slytherins tend to hesitate
+              before acting, so as to weigh all possible outcomes before
+              deciding exactly what should be done.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="gryffindor">
+        <div class="gryff">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fdownload%20(4).jpg?v=1596779979840"
+          />
+          <div class="gryffindor_text">
+            <p>
+              The Gryffindor house emphasises the traits of courage as well as
+              "daring, nerve, and chivalry," and thus its members are generally
+              regarded as brave, though sometimes to the point of recklessness.
+              Some Gryffindors have also been noted to be short-tempered.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="ravenclaw">
+        <div class="raven">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fdownload%20(5).jpg?v=1596780041584"
+          />
+          <div class="ravenclaw_text">
+            <p>
+              Ravenclaws possess the traits of cleverness, wisdom, wit,
+              intellectual ability and creativity. Students in Ravenclaw are
+              noted for their individuality and acceptance of people and things
+              that others would consider weird, as well as their outstanding
+              intelligence.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="hufflepuff">
+        <div class="huffle">
+          <img
+            src="https://cdn.glitch.com/dfa234d0-1b9a-42d3-8e9c-1f8ec650af65%2Fdownload%20(6).jpg?v=1596780067906"
+          />
+          <div class="hufflepuff_text">
+            <p>
+              Hufflepuff is the most inclusive among the four houses; valuing
+              hard work, dedication, patience, loyalty, and fair play rather
+              than a particular aptitude in its students. Hufflepuffs are known
+              to have a strong moral code, and a sense of right and wrong.
+              Hufflepuffs are usually accepting of everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
